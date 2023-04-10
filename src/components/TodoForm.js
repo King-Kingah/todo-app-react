@@ -5,7 +5,7 @@ export const TodoForm = () => {
 
   return (
     <form className='TodoForm'>
-        <input type='text' className='todo-list' placeholder='What task will you handle today?' onChangnge={(e) => console.log(e.target.value)}/>
+        <input type='text' className='todo-list' placeholder='What task will you handle today?' onChange={(e) => console.log(e.target.value)}/>
         <button type='submit' className='todo-btn'>Add Task</button>
     </form>
   )
